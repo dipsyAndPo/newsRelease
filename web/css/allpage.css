@@ -1,0 +1,12 @@
+.imgcss{
+    float: left;
+    margin: 15px;
+}
+.divsize{
+    padding: 10px;
+    height: 150px;
+    text-align: left;
+}
+#th-center th{
+    text-align: center;
+}

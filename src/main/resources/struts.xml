@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="userinfo" namespace="/" extends="struts-default">
+        <action name="login" class="org.lesson.action.Action_UserInfo" method="login">
+            <result name="success" type="chain">
+                <param name="namespace">/</param>
+                <param name="actionName">selectAll</param>
+            </result>
+            <result name="error">
+                /error.jsp
+            </result>
+        </action>
+    </package>
+    <package name="news" namespace="/" extends="struts-default">
+
+        <action name="addNews" class="org.lesson.action.Action_News" method="addNews">
+            <result name="success" type="chain">
+                <param name="namespace">/</param>
+                <param name="actionName">selectAll</param>
+            </result>
+            <result name="error">
+                /error.jsp
+            </result>
+        </action>
+        <action name="selectAll" class="org.lesson.action.Action_News" method="selectAll">
+            <result name="success">
+                /show.jsp
+            </result>
+            <result name="error">
+                /error.jsp
+            </result>
+        </action>
+
+        <action name="getById" class="org.lesson.action.Action_News" method="getById">
+            <result name="success">
+                /news.jsp
+            </result>
+            <result name="error">
+                /error.jsp
+            </result>
+        </action>
+
+        <action name="addComment" class="org.lesson.action.Action_Comment" method="addComment">
+            <result name="success" type="chain">
+                <param name="namespace">/</param>
+                <param name="actionName">getById</param>
+            </result>
+            <result name="error">
+                /error.jsp
+            </result>
+        </action>
+    </package>
+
+</struts>
