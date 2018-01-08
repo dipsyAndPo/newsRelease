@@ -50,7 +50,7 @@
         </c:forEach>
         </tbody>
     </table>
-    <h3 class="text-center"><a href="#">发布新闻</a></h3>
+    <h3 class="text-center"><a href="addNews.jsp">发布新闻</a></h3>
 </div>
 <div class="text-right">
 <s:debug></s:debug>
