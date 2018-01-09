@@ -34,6 +34,7 @@
         <thead >
         <tr id="th-center">
             <th>编号</th>
+
             <th>标题</th>
             <th>发布时间</th>
             <th>发布人</th>
