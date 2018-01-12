@@ -6,6 +6,7 @@ public class UserInfo {
     private String upsw;
     private String urealname;
 
+
     public UserInfo() {
         super();
     }
