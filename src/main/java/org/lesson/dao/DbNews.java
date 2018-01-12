@@ -57,6 +57,7 @@ public class DbNews {
             return false;
         }
     }
+    //获取一个新闻
     public static News getById(int nid){
         News news=new News();
         conn=DbConn.openConn();
