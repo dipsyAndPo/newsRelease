@@ -76,7 +76,6 @@ public class DbNews {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-
         }
         DbUserInfo.closeAll();
         return news;
