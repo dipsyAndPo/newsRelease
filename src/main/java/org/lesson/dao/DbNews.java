@@ -73,7 +73,6 @@ public class DbNews {
                 String ntime=set.getString("ntime");
                 String urealname=set.getString("urealname");
                 news=new News(nid,uid,ntitle,ncontext,ntime,urealname);
-
             }
         } catch (SQLException e) {
             e.printStackTrace();
