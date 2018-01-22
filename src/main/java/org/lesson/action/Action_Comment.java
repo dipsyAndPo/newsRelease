@@ -10,7 +10,7 @@ public class Action_Comment extends ActionSupport implements ModelDriven<Comment
     private Comment comment= new Comment();
 
     public String addComment(){
-        DbComment.addComment(comment)  ;
+        DbComment.addComment(comment);
         return SUCCESS;
     }
 
