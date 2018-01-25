@@ -19,6 +19,7 @@ public class Comment {
         this.cimg = cimg;
         this.ccontext = ccontext;
         this.ctime = ctime;
+
     }
 
 
