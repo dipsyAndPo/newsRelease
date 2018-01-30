@@ -38,6 +38,7 @@
             <td><input type="text" name="uame" class="form-control" placeholder="请输入账号"></td>
           </tr>
           <tr>
+
             <td>密码:</td>
             <td><input type="text" name="upsw" class="form-control" placeholder="请输入密码"></td>
           </tr>
@@ -46,6 +47,7 @@
           </tr>
         </table>
       </div>
+
     </form>
     <a href="selectAll">刷新</a>
   </body>
