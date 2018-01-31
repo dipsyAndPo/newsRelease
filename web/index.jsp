@@ -30,7 +30,6 @@
           <li><input type="text" placeholder="输入你要搜索的新闻" class="form-control"> </li>
           <li class="text-right"><button class="btn btn-info btn-search" onclick="select()">查找</button></li>
         </ul>
-
         <h1><small>请登录</small></h1>
         <table align="center" class="table-bordered table  text-center">
           <tr>
