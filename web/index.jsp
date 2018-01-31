@@ -31,7 +31,6 @@
           <li class="text-right"><button class="btn btn-info btn-search" onclick="select()">查找</button></li>
         </ul>
         <h1><small>请登录</small></h1>
-
         <table align="center" class="table-bordered table  text-center">
           <tr>
             <td>账号:</td>
