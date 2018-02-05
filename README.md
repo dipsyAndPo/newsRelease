@@ -15,7 +15,7 @@
     数据库是microsoft sql server
     数据库文件在web/sql里面
     数据库账号是sa
-    密码是123456
+    密码是123456 
     
 话说用Idea上传好慢呀
 
