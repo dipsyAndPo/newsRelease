@@ -13,7 +13,7 @@
           <root url="file://$MODULE_DIR$/src/main/java" />
           <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
-      </configuration>
+      </configuration> 
       <facet type="Struts2" name="Struts 2">
         <configuration>
           <propertiesKeys disabled="false" />
